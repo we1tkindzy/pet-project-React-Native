@@ -1,0 +1,122 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should renders BeerItem component with data 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "display": "flex",
+      "flexDirection": "row",
+      "marginBottom": 20,
+      "opacity": 1,
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "#B56735",
+        "borderBottomLeftRadius": 10,
+        "borderTopLeftRadius": 10,
+        "display": "flex",
+        "justifyContent": "space-between",
+        "padding": 8,
+        "width": "40%",
+      }
+    }
+  >
+    <Image
+      alt="Beer Name"
+      height={120}
+      resizeMode="contain"
+      source={
+        {
+          "uri": "img/beer.png",
+        }
+      }
+      style={
+        {
+          "margin": "auto",
+          "marginBottom": 10,
+        }
+      }
+      width={120}
+    />
+    <Text
+      style={
+        {
+          "textAlign": "center",
+        }
+      }
+    >
+      tagline
+    </Text>
+  </View>
+  <View
+    style={
+      [
+        {
+          "backgroundColor": "#B6846B",
+          "borderBottomRightRadius": 10,
+          "borderTopRightRadius": 10,
+          "padding": 10,
+          "width": "60%",
+        },
+        {
+          "backgroundColor": "#B6846B",
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        {
+          "color": "#371005",
+          "fontSize": 24,
+          "marginBottom": 10,
+        }
+      }
+    >
+      Beer Name
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#FFFFFF",
+          "fontSize": 14,
+        }
+      }
+    >
+      tips
+    </Text>
+  </View>
+</View>
+`;

@@ -1,0 +1,23 @@
+// {
+//   "extends": "./tsconfig",
+//   "compilerOptions": {
+//     "strict": true,
+//     "jsx": "react-jsx",
+//     "module": "commonjs",
+//     "allowSyntheticDefaultImports": true,
+//     "esModuleInterop": true
+//   }
+// }
+{
+  "extends": "@tsconfig/react-native/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "strict": true,
+    "jsx": "react-jsx",
+    "paths": {
+      "*": ["src/*"],
+      "tests": ["src/__tests__/*"],
+      "components/*": ["src/components/*"]
+    }
+  }
+}
